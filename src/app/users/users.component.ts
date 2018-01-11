@@ -16,8 +16,8 @@ export class UsersComponent implements OnInit {
 
   ngOnInit() {
     this.chatService.users
-        .subscribe((users: User[]) => {
-          this.users = users.filter(user => user.name != this.curUser.name);
-        });
+      .subscribe((users: User[]) => {
+        this.users = users.filter(user => user.name != this.curUser.name);
+      });
   }
 }

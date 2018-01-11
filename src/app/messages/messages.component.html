@@ -10,7 +10,7 @@
 <div id="new-msg">
   <div id="msg-box">
     <mat-form-field>
-        <input matInput placeholder="Message" [(ngModel)]="text" (keyup.enter)="send()">
+      <input matInput placeholder="Message" [(ngModel)]="text" (keyup.enter)="send()">
     </mat-form-field>
     <button mat-button color="primary" (click)="send()" [disabled]="!text.length">Send</button>
   </div>

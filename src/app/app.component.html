@@ -1,12 +1,12 @@
 <mat-toolbar color="primary">
   <button mat-icon-button (click)="toggleUserList()">
-      <mat-icon>{{userListIcon}}</mat-icon>
+    <mat-icon>{{userListIcon}}</mat-icon>
   </button>
   <span class="title">Chat Room</span>
   <div class="user-info">
-      <span class="username">{{user.name}}</span>
-      <button mat-raised-button class="logout" (click)="logout()">Logout</button>
-    </div>
+    <span class="username">{{user.name}}</span>
+    <button mat-raised-button class="logout" (click)="logout()">Logout</button>
+  </div>
 </mat-toolbar>
 <div class="wrapper">
   <chat-users [curUser]="user" [@slide]="showList"></chat-users>

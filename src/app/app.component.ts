@@ -1,5 +1,5 @@
-import { 
-  Component, 
+import {
+  Component,
   HostListener,
   animate,
   state,
