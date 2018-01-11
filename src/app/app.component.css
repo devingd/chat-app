@@ -1,0 +1,46 @@
+:host {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+chat-messages {
+    flex: 1;
+}
+chat-users {
+    flex-shrink: 0;
+    overflow: scroll;
+    width: 200px;
+}
+mat-toolbar {
+    justify-content: space-between;
+}
+button.logout.mat-raised-button {
+    /* Material bugfix: if not given a 'color' mat-button defaults to 'currentColor' which is white
+     * on the toolbar. White on white is a little difficult to read for most people,
+     * so I'm changing it to match the toolbar color.
+     */
+    color: #3f51b5; 
+}
+.user-info {
+    display: flex;
+    align-items: center;
+}
+.username {
+    margin-right: 1rem;
+}
+.wrapper {
+    display: flex; 
+    flex: 1;
+    min-height: 0;
+}
+
+@media screen and (min-width: 750px) {
+    chat-users {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 400px){
+    .username {
+        display: none;
+    }
+}

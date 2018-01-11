@@ -1,0 +1,54 @@
+[
+    {
+        "name": "Elrond",
+        "id": 1
+    },
+    {
+        "name": "Bilbo",
+        "id": 2
+    },
+    {
+        "name": "Frodo",
+        "id": 3
+    },
+    {
+        "name": "Samwise",
+        "id": 4
+    },
+    {
+        "name": "Aragorn",
+        "id": 5
+    },
+    {
+        "name": "Arwen",
+        "id": 6
+    },
+    {
+        "name": "Boromir",
+        "id": 7
+    },
+    {
+        "name": "Gandalf",
+        "id": 8
+    },
+    {
+        "name": "Legolas",
+        "id": 9
+    },
+    {
+        "name": "Gimli",
+        "id": 10
+    },
+    {
+        "name": "Faramir",
+        "id": 11
+    },
+    {
+        "name": "Merry",
+        "id": 12
+    },
+    {
+        "name": "Pippen",
+        "id": 13
+    }
+]
